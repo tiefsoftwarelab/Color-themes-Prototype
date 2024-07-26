@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+}
+
+:root{
+/*	green-yellow.*/
+  --g: #a8fe35;
+  --y: #bfff39;
+
+/*  black.*/
+  --b: #000;
+
+/*  white.*/
+  --w: #fff;
+
+/*  heavy-matel.*/
+ --hm: #383936;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav{
+	position: absolute;
+	height: 60px;
+	width: 100%;
+	top: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	position: absolute;
+	left: 40px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.logo{
+	position: absolute;
+	right: 40px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.content{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	left: 100px;
+	margin-top: 50px;
+}
+.head{
+	font-weight: 900;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.text{
+	font-size: 25px;
+}
+.colors{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	right: 100px;
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.39);
+}
+.green_yellow{
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	background: 
+	linear-gradient(var(--g),
+	 var(--y));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	left: 0px;
+}
+.black{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background:var(--b);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	color: var(--w);
+	top: 90px;
+	right: 130px;
+}
+.white{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	background:var(--w);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	color: var(--b);
+	top: 200px;
+	right: 130px;
+}
+.heavy_metal{
+	position: absolute;
+	height: 110px;
+	width: 110px;
+	background:var(--hm);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	color: var(--w);
+	font-size: 10px;
+	right: 60px;
+	top: 40%;
+}
+.color_name{
+	position: absolute;
+	margin-bottom: 20px;
+}
+.color_code{
+	position: absolute;
+	margin-top: 20px;
+}
+.font_family{
+	position: absolute;
+	font-size: 20px;
+	bottom: 20px;
+	left: 30px;
+	font-weight: 400;
+}
